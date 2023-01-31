@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DCA10E9AFD179AD09FB7CCF /* Pods_PointsGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E221BB99E5D8D106F07FA3EC /* Pods_PointsGraph.framework */; };
 		BA1B2D92289B9D8700859FBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2D91289B9D8700859FBB /* AppDelegate.swift */; };
 		BA1B2D94289B9D8700859FBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2D93289B9D8700859FBB /* SceneDelegate.swift */; };
-		BA1B2D96289B9D8700859FBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2D95289B9D8700859FBB /* ViewController.swift */; };
-		BA1B2D99289B9D8700859FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1B2D97289B9D8700859FBB /* Main.storyboard */; };
 		BA1B2D9B289B9D8900859FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1B2D9A289B9D8900859FBB /* Assets.xcassets */; };
 		BA1B2D9E289B9D8900859FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1B2D9C289B9D8900859FBB /* LaunchScreen.storyboard */; };
+		BA1B2DA8289BA35500859FBB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DA7289BA35500859FBB /* AppCoordinator.swift */; };
+		BA1B2DAB289BA37500859FBB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DAA289BA37500859FBB /* Coordinator.swift */; };
+		BA1B2DAD289BA42B00859FBB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DAC289BA42B00859FBB /* MainCoordinator.swift */; };
+		BA1B2DAF289BA4F200859FBB /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DAE289BA4F200859FBB /* MainScreenViewModel.swift */; };
+		BA1B2DB1289BA4FC00859FBB /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DB0289BA4FC00859FBB /* MainScreenController.swift */; };
+		BA1B2DB3289BA9C200859FBB /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1B2DB2289BA9C200859FBB /* Test.storyboard */; };
+		BA1B2DB6289BB2B300859FBB /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DB5289BB2B300859FBB /* NetworkError.swift */; };
+		BA1B2DB8289BB3A700859FBB /* NetworkMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DB7289BB3A700859FBB /* NetworkMethod.swift */; };
+		BA1B2DBA289BB3E400859FBB /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DB9289BB3E400859FBB /* ApiClient.swift */; };
+		BA1B2DBD289BB40F00859FBB /* PointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DBC289BB40F00859FBB /* PointModel.swift */; };
+		BA1B2DC0289BBD7400859FBB /* TableScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DBF289BBD7400859FBB /* TableScreenCoordinator.swift */; };
+		BA1B2DC2289BCB4100859FBB /* TableScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DC1289BCB4100859FBB /* TableScreenViewModel.swift */; };
+		BA1B2DC4289BCBB800859FBB /* TableScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DC3289BCBB800859FBB /* TableScreenController.swift */; };
+		BA1B2DC7289BD04A00859FBB /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2DC6289BD04A00859FBB /* TableCell.swift */; };
+		BA5C707B289C028500082101 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C707A289C028500082101 /* UIImage+Extensions.swift */; };
+		BA5C707D289C09B800082101 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C707C289C09B800082101 /* UIViewController+Extensions.swift */; };
+		BA70B215294644B9007399F5 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B214294644B9007399F5 /* TabBarCoordinator.swift */; };
+		BA70B217294644F1007399F5 /* BreakingPointTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70B216294644F1007399F5 /* BreakingPointTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3E01842FFB6A136DD7BB85C /* Pods-PointsGraph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PointsGraph.debug.xcconfig"; path = "Target Support Files/Pods-PointsGraph/Pods-PointsGraph.debug.xcconfig"; sourceTree = "<group>"; };
 		BA1B2D8E289B9D8700859FBB /* PointsGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointsGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1B2D91289B9D8700859FBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA1B2D93289B9D8700859FBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA1B2D95289B9D8700859FBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA1B2D98289B9D8700859FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA1B2D9A289B9D8900859FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA1B2D9D289B9D8900859FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA1B2D9F289B9D8900859FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1B2DA7289BA35500859FBB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BA1B2DAA289BA37500859FBB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BA1B2DAC289BA42B00859FBB /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		BA1B2DAE289BA4F200859FBB /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		BA1B2DB0289BA4FC00859FBB /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		BA1B2DB2289BA9C200859FBB /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		BA1B2DB5289BB2B300859FBB /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		BA1B2DB7289BB3A700859FBB /* NetworkMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMethod.swift; sourceTree = "<group>"; };
+		BA1B2DB9289BB3E400859FBB /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		BA1B2DBC289BB40F00859FBB /* PointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointModel.swift; sourceTree = "<group>"; };
+		BA1B2DBF289BBD7400859FBB /* TableScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenCoordinator.swift; sourceTree = "<group>"; };
+		BA1B2DC1289BCB4100859FBB /* TableScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenViewModel.swift; sourceTree = "<group>"; };
+		BA1B2DC3289BCBB800859FBB /* TableScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenController.swift; sourceTree = "<group>"; };
+		BA1B2DC6289BD04A00859FBB /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		BA5C707A289C028500082101 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		BA5C707C289C09B800082101 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		BA70B214294644B9007399F5 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		BA70B216294644F1007399F5 /* BreakingPointTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingPointTabBarController.swift; sourceTree = "<group>"; };
+		D938C14B1C787333605C5B99 /* Pods-PointsGraph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PointsGraph.release.xcconfig"; path = "Target Support Files/Pods-PointsGraph/Pods-PointsGraph.release.xcconfig"; sourceTree = "<group>"; };
+		E221BB99E5D8D106F07FA3EC /* Pods_PointsGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PointsGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DCA10E9AFD179AD09FB7CCF /* Pods_PointsGraph.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,8 @@
 			children = (
 				BA1B2D90289B9D8700859FBB /* PointsGraph */,
 				BA1B2D8F289B9D8700859FBB /* Products */,
+				BF033DEA08D585CDF92050A6 /* Pods */,
+				EB3E3862FCA12467610443F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,112 @@
 		BA1B2D90289B9D8700859FBB /* PointsGraph */ = {
 			isa = PBXGroup;
 			children = (
+				BA5C7079289C026C00082101 /* Helper */,
+				BA1B2DBB289BB40600859FBB /* Model */,
+				BA1B2DB4289BB28F00859FBB /* Networking */,
+				BA1B2DA9289BA36C00859FBB /* Coordinator */,
+				BA1B2DA5289BA33500859FBB /* Flow */,
 				BA1B2D91289B9D8700859FBB /* AppDelegate.swift */,
 				BA1B2D93289B9D8700859FBB /* SceneDelegate.swift */,
-				BA1B2D95289B9D8700859FBB /* ViewController.swift */,
-				BA1B2D97289B9D8700859FBB /* Main.storyboard */,
 				BA1B2D9A289B9D8900859FBB /* Assets.xcassets */,
 				BA1B2D9C289B9D8900859FBB /* LaunchScreen.storyboard */,
 				BA1B2D9F289B9D8900859FBB /* Info.plist */,
+				BA1B2DB2289BA9C200859FBB /* Test.storyboard */,
+				BA70B214294644B9007399F5 /* TabBarCoordinator.swift */,
+				BA70B216294644F1007399F5 /* BreakingPointTabBarController.swift */,
 			);
 			path = PointsGraph;
+			sourceTree = "<group>";
+		};
+		BA1B2DA5289BA33500859FBB /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B2DBE289BBD6900859FBB /* TableScreen */,
+				BA1B2DA6289BA33C00859FBB /* MainScreen */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		BA1B2DA6289BA33C00859FBB /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B2DAC289BA42B00859FBB /* MainCoordinator.swift */,
+				BA1B2DAE289BA4F200859FBB /* MainScreenViewModel.swift */,
+				BA1B2DB0289BA4FC00859FBB /* MainScreenController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		BA1B2DA9289BA36C00859FBB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B2DAA289BA37500859FBB /* Coordinator.swift */,
+				BA1B2DA7289BA35500859FBB /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BA1B2DB4289BB28F00859FBB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B2DB5289BB2B300859FBB /* NetworkError.swift */,
+				BA1B2DB7289BB3A700859FBB /* NetworkMethod.swift */,
+				BA1B2DB9289BB3E400859FBB /* ApiClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BA1B2DBB289BB40600859FBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B2DBC289BB40F00859FBB /* PointModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA1B2DBE289BBD6900859FBB /* TableScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B2DC5289BD03700859FBB /* Cell */,
+				BA1B2DBF289BBD7400859FBB /* TableScreenCoordinator.swift */,
+				BA1B2DC1289BCB4100859FBB /* TableScreenViewModel.swift */,
+				BA1B2DC3289BCBB800859FBB /* TableScreenController.swift */,
+			);
+			path = TableScreen;
+			sourceTree = "<group>";
+		};
+		BA1B2DC5289BD03700859FBB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B2DC6289BD04A00859FBB /* TableCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BA5C7079289C026C00082101 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BA5C707A289C028500082101 /* UIImage+Extensions.swift */,
+				BA5C707C289C09B800082101 /* UIViewController+Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BF033DEA08D585CDF92050A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3E01842FFB6A136DD7BB85C /* Pods-PointsGraph.debug.xcconfig */,
+				D938C14B1C787333605C5B99 /* Pods-PointsGraph.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB3E3862FCA12467610443F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E221BB99E5D8D106F07FA3EC /* Pods_PointsGraph.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA1B2DA2289B9D8900859FBB /* Build configuration list for PBXNativeTarget "PointsGraph" */;
 			buildPhases = (
+				13D3527315A885B46E410CB2 /* [CP] Check Pods Manifest.lock */,
 				BA1B2D8A289B9D8700859FBB /* Sources */,
 				BA1B2D8B289B9D8700859FBB /* Frameworks */,
 				BA1B2D8C289B9D8700859FBB /* Resources */,
+				075E28C3C5B3E47101B2E9E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +263,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1B2DB3289BA9C200859FBB /* Test.storyboard in Resources */,
 				BA1B2D9E289B9D8900859FBB /* LaunchScreen.storyboard in Resources */,
 				BA1B2D9B289B9D8900859FBB /* Assets.xcassets in Resources */,
-				BA1B2D99289B9D8700859FBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		075E28C3C5B3E47101B2E9E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PointsGraph/Pods-PointsGraph-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PointsGraph/Pods-PointsGraph-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PointsGraph/Pods-PointsGraph-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13D3527315A885B46E410CB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PointsGraph-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA1B2D8A289B9D8700859FBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA1B2D96289B9D8700859FBB /* ViewController.swift in Sources */,
+				BA1B2DBA289BB3E400859FBB /* ApiClient.swift in Sources */,
+				BA1B2DC2289BCB4100859FBB /* TableScreenViewModel.swift in Sources */,
+				BA1B2DC7289BD04A00859FBB /* TableCell.swift in Sources */,
+				BA1B2DA8289BA35500859FBB /* AppCoordinator.swift in Sources */,
+				BA1B2DC0289BBD7400859FBB /* TableScreenCoordinator.swift in Sources */,
+				BA5C707D289C09B800082101 /* UIViewController+Extensions.swift in Sources */,
+				BA1B2DAF289BA4F200859FBB /* MainScreenViewModel.swift in Sources */,
+				BA1B2DAD289BA42B00859FBB /* MainCoordinator.swift in Sources */,
+				BA1B2DC4289BCBB800859FBB /* TableScreenController.swift in Sources */,
+				BA1B2DAB289BA37500859FBB /* Coordinator.swift in Sources */,
 				BA1B2D92289B9D8700859FBB /* AppDelegate.swift in Sources */,
+				BA1B2DB1289BA4FC00859FBB /* MainScreenController.swift in Sources */,
+				BA1B2DB6289BB2B300859FBB /* NetworkError.swift in Sources */,
 				BA1B2D94289B9D8700859FBB /* SceneDelegate.swift in Sources */,
+				BA70B215294644B9007399F5 /* TabBarCoordinator.swift in Sources */,
+				BA1B2DBD289BB40F00859FBB /* PointModel.swift in Sources */,
+				BA70B217294644F1007399F5 /* BreakingPointTabBarController.swift in Sources */,
+				BA1B2DB8289BB3A700859FBB /* NetworkMethod.swift in Sources */,
+				BA5C707B289C028500082101 /* UIImage+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BA1B2D97289B9D8700859FBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA1B2D98289B9D8700859FBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA1B2D9C289B9D8900859FBB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +470,7 @@
 		};
 		BA1B2DA3289B9D8900859FBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E01842FFB6A136DD7BB85C /* Pods-PointsGraph.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +481,6 @@
 				INFOPLIST_FILE = PointsGraph/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +498,7 @@
 		};
 		BA1B2DA4289B9D8900859FBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D938C14B1C787333605C5B99 /* Pods-PointsGraph.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +509,6 @@
 				INFOPLIST_FILE = PointsGraph/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
